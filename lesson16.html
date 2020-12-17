@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+        .random-btn{
+            background-color: rgb(164, 13, 224);
+        }
+        .btnd{
+            background-color: darkred;
+            color: white;
+        }
+        .vytn{
+            background-color: turquoise;
+            color: black;
+        }
+        .bytn{
+            border: 2px solid black;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container bg-danger text-white">
+        <h1 class="dis-1 fw-bold m-5 display-5">Hello</h1> 
+        <p class="dis-1 m-5 display-5 fw-bold" >world</p>
+    </div>
+    <div class="container">
+        <button class="btn random-btn btn-danger btn-lg">Click me</button>
+        <div class="btn-group" role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-outline-primary btnd">Left</button>
+            <button type="button" class="btn btn-outline-primary vytn">Middle</button>
+            <button type="button" class="btn btn-outline-primary bytn">Right</button>
+    </div>
+    <div class="row justify-content-between justify-content-center" style="padding-top: 20px;">
+        <div class="card bg-dark text-white shadow-lg rounded" style="width: 25rem; padding: 10px 15px;">
+            <img src="https://zakazposterov.ru/fotooboi/z/9d4f24c59a2de2a2ffafe2ed465bf387_z.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary bg-danger">Order ticket</a>
+            </div>
+          </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <div class="card bg-dark text-white shadow-lg rounded" style="width: 25rem; padding: 10px 15px;">
+            <img src="https://zakazposterov.ru/fotooboi/z/9d4f24c59a2de2a2ffafe2ed465bf387_z.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary bg-danger">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card bg-dark text-white shadow-lg rounded" style="width: 25rem; padding: 10px 15px;">
+            <img src="https://zakazposterov.ru/fotooboi/z/9d4f24c59a2de2a2ffafe2ed465bf387_z.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary bg-danger">Another thing</a>
+            </div>
+          </div>
+          <div id="carouselExampleControls" class="carousel slide w-50 mt-5 mb-5 mx-auto" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbJIsLyKn60ycZWBsjXEypI_tuNOiEU3xP1A&usqp=CAU" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ_We8QIEAlTwC3OU5sFgi1VR6HIS0x38yxw&usqp=CAU" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-sXDD2gthv0ftVctyoRIeHpR2DTJ9I2X6Dw&usqp=CAU" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+    </div>
+</body>
+</html>
